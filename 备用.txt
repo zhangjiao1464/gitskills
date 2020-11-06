@@ -1,0 +1,35 @@
+git姓名  李明辉
+git邮箱  253778281@qq.com
+分支名  JaxLi
+
+进入到项目目录
+
+git status 查看当前更改文件内容和数量
+git add . 提交所有修改到本地缓冲区
+git commit -m "注释内容" 将缓冲区的内容准备提交到代码库
+最后的操作是push
+
+
+  IPv4 地址 . . . . . . . . . . . . : 172.31.213.218
+
+
+git如何新建分支
+1) 切换到基础分支，如主干
+
+git checkout master
+
+2）创建并切换到新分支
+
+git checkout -b panda
+
+git branch可以看到已经在panda分支上
+
+3)更新分支代码并提交
+
+git add *
+
+git commit -m "init panda"
+
+git push origin panda
+
+4)在git代码管理界面经可以看到panda分支了，成功~~
